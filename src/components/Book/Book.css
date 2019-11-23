@@ -1,0 +1,36 @@
+.book-item {
+    width: 160px;
+    margin: 10px;
+    text-align: left;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.book-item:hover {
+    opacity: 0.3;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.book-image {
+    width: 160px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.book-title {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.book-author {
+    font-size: 10px;
+    color: white;
+}
+
+.book-pages {
+    font-size: 14px;
+    color: #575e66;
+}
